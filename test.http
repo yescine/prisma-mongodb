@@ -1,0 +1,11 @@
+
+GET http://localhost:333/users
+###
+
+POST  http://localhost:333/posts
+Content-Type: application/json
+
+{
+  "authorId":"629b0d252aba23094b161194",
+  "title":"new test 1"
+}
